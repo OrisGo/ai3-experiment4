@@ -1,0 +1,9 @@
+# GSM8K SFT dependencies for Python 3.11, including remote Linux/Jupyter.
+# Use the container's working CUDA PyTorch, or install a CUDA build compatible
+# with its NVIDIA driver separately. See README.md for setup and checks.
+accelerate==1.15.0
+bitsandbytes==0.50.2
+datasets==5.1.0
+peft==0.21.2
+transformers==5.19.0
+trl==1.15.0

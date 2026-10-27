@@ -1,1 +1,15 @@
+# Python environments and caches
 .venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter and operating system files
+.ipynb_checkpoints/
+.DS_Store
+
+# Reproducible prepared data
+/data/gsm8k_sft/
+
+# Model weights and checkpoints; keep experiment metrics and predictions
+/runs/**/checkpoint-*/
+/runs/**/model/
